@@ -9,3 +9,77 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.contain {
+    text-align: center;
+    margin-top: 30px;
+     
+
+}
+h1{
+    margin-bottom: 20px;
+  
+}
+
+.label-tarea {
+    font-size: 20px;
+    margin-right: 15px;
+
+
+
+}
+
+.input-tarea {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  
+
+}
+
+.contain-tareas {
+
+    margin-top: 15px;
+
+    margin: auto;
+    width: 800px;
+    
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.tarea {
+    display: flex;
+    margin: auto;
+    width: 700px;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid;
+}
+
+.tarea:hover {
+    transform: scale(1.05);
+    /* Aumenta el tamaño al 120% */
+    transition: transform 0.4s ease;
+    /* Transición suave */
+}
+
+.description-tarea {
+    text-align: start;
+    width: 80%;
+    padding: 10px;
+    text-transform: uppercase;
+    
+
+}
+
+.icon-delete {
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    color: red;
+}
+.cantidad-tareas{
+    display: flex;
+    margin-left: 20px;
+ 
