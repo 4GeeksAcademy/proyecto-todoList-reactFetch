@@ -8,14 +8,10 @@ const Home = () => {
 
 	const [tarea, setTarea] = useState(0);
 	const [listadoTareas, setListado] = useState([]);
-	const [user, setUser] = useState([])
+	
 
 	//METODO GET CON EL CUAL HACEMOS EL LLAMADO DE INFO DE LA API A NUESTRA WEB
 
-	
-
-	
-		
 	
 	const getApiTodos = async () => {
 		try {
